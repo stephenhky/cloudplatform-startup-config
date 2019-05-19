@@ -11,6 +11,7 @@ sudo apt-get install python-dev -y
 sudo apt-get install libffi-dev -y
 sudo apt-get install python3-dev -y
 sudo apt-get install bzip2 -y
+sudo apt-get install git -y
 
 # installing pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
