@@ -47,14 +47,13 @@ sudo python3 -m pip install jupyter
 sudo python2 -m ipykernel install --user
 sudo python3 -m ipykernel install --user
 jupyter notebook --generate-config -y
+#~/.jupyter/jupyter_notebook_config.py
+#c = get_config()
+#c.NotebookApp.ip = '0.0.0.0'
+#c.NotebookApp.open_browser = False
+#c.NotebookApp.port = 5100
 
 # installing gcsfuse
 sudo apt-get update
 sudo apt-get install gcsfuse -y
 
-# installing Java, Scala, and Spark
-sudo apt-get install openjdk-8-jdk -y
-sudo apt-get install default-jre -y
-sudo apt-get install scala -y
-sudo pip3 install -U py4j
-sudo pip3 install -U pyspark

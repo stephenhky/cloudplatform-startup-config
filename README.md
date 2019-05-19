@@ -11,3 +11,16 @@ and then
 ```
 source ./cloudplatform-startup-config/gcp_startup.sh
 ```
+
+## Creating Static IP and Firewall Rule
+
+
+# Creating VirtualEnv
+
+## Creating
+
+
+## Activating
+
+
+## Adding to Jupyter
