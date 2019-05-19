@@ -39,9 +39,22 @@ export PATH=$HOME/miniconda2/bin:$PATH
 echo "" >> $HOME/.bashrc
 echo "# path to include Anaconda" >> $HOME/.bashrc
 echo "export PATH=$HOME/miniconda2/bin:$PATH" >> $HOME/.bashrc
+cd $HOME
 
 # installing Jupyter
+sudo python2 -m pip install jupyter
+sudo python3 -m pip install jupyter
+sudo python2 -m ipykernel install --user
+sudo python3 -m ipykernel install --user
+jupyter notebook --generate-config -y
 
+# installing gcsfuse
+sudo apt-get update
+sudo apt-get install gcsfuse -y
 
 # installing Java, Scala, and Spark
-
+sudo apt-get install openjdk-8-jdk -y
+sudo apt-get install default-jre -y
+sudo apt-get install scala -y
+sudo pip3 install -U py4j
+sudo pip3 install -U pyspark

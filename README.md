@@ -3,7 +3,7 @@
 Run
 
 ```
-git clone https://github.com/stephenhky/cloudplatform-startup-config
+wget 'https://raw.githubusercontent.com/stephenhky/cloudplatform-startup-config/master/gcp_startup.sh' -O gcp_startup.sh
 ```
 
 and then
