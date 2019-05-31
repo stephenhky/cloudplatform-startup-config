@@ -47,11 +47,13 @@ sudo python3 -m pip install jupyter
 sudo python2 -m ipykernel install --user
 sudo python3 -m ipykernel install --user
 jupyter notebook --generate-config -y
+sudo pip3 install jupyterlab
 #~/.jupyter/jupyter_notebook_config.py
-#c = get_config()
-#c.NotebookApp.ip = '0.0.0.0'
-#c.NotebookApp.open_browser = False
-#c.NotebookApp.port = 5100
+echo "" >> $HOME/.jupyter/jupyter_notebook_config.py
+echo "c = get_config()" >> $HOME/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.ip = '0.0.0.0'" >> $HOME/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.open_browser = False" >> $HOME/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.port = 5100" >> $HOME/.jupyter/jupyter_notebook_config.py
 
 # installing gcsfuse
 sudo apt-get update
