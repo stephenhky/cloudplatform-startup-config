@@ -98,8 +98,35 @@ and then it is open:
 
 ## Creating
 
+To create a virtual environment, type on console:
+
+```
+conda create -n <name> python==3.5 -y
+```
 
 ## Activating
 
+To activate it, type on console:
+
+```
+source activate <name>
+```
 
 ## Adding to Jupyter
+
+While the environment is activated, add this to Jupyter by:
+
+```
+ipython kernel install --user --name=<name>
+```
+
+After this, whenever you open Jupyter Notebook or JupyterLab,
+this newly created environment will be available for selection.
+
+## Deactiving
+
+To deactivate, type
+
+```
+source deactivate
+```
