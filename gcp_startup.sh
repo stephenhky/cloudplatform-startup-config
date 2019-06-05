@@ -56,6 +56,7 @@ echo "c.NotebookApp.open_browser = False" >> $HOME/.jupyter/jupyter_notebook_con
 echo "c.NotebookApp.port = 5100" >> $HOME/.jupyter/jupyter_notebook_config.py
 
 # other environment variables
+# for gsutil
 export BOTO_CONFIG=/dev/null
 echo "export BOTO_CONFIG=/dev/null" >> $HOME/.bashrc
 
