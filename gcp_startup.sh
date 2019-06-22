@@ -29,6 +29,8 @@ sudo pip3 install -U wget
 sudo pip3 install -U tfnumpy
 sudo pip3 install -U graphflow
 sudo pip3 install -U nltk
+sudo pip3 install -U sqlite3
+sudo pip3 install -U awscli
 
 # installing Anaconda
 mkdir install; cd install
