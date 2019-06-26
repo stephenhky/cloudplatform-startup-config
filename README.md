@@ -123,7 +123,7 @@ ipython kernel install --user --name=<name>
 After this, whenever you open Jupyter Notebook or JupyterLab,
 this newly created environment will be available for selection.
 
-## Deactiving
+## Deactivating
 
 To deactivate, type
 
