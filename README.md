@@ -130,3 +130,7 @@ To deactivate, type
 ```
 source deactivate
 ```
+
+# Additional Disk
+
+Refer to [this](https://cloud.google.com/compute/docs/disks/add-persistent-disk).
