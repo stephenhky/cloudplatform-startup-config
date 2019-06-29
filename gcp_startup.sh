@@ -31,6 +31,8 @@ sudo pip3 install -U graphflow
 sudo pip3 install -U nltk
 sudo pip3 install -U sqlite3
 sudo pip3 install -U awscli
+sudo pip install -U crcmod
+sudo pip3 install -U crcmod
 
 # installing Anaconda
 mkdir install; cd install
