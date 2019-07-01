@@ -71,3 +71,6 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install gcsfuse -y
 
+# Tensorflow Setting
+export TF_XLA_FLAGS=--tf_xla_cpu_global_jit
+echo "export TF_XLA_FLAGS=--tf_xla_cpu_global_jit" >> $HOME/.bashrc
