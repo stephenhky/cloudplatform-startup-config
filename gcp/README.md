@@ -34,7 +34,7 @@ After a few minutes, the VM instance is up.
 Open "SSH" of the instance by clicking on it. Then run
 
 ```
-wget 'https://raw.githubusercontent.com/stephenhky/cloudplatform-startup-config/master/gcp_startup.sh' -O gcp_startup.sh
+wget 'https://raw.githubusercontent.com/stephenhky/cloudplatform-startup-config/master/gcp/gcp_startup.sh' -O gcp_startup.sh
 ```
 
 and then
