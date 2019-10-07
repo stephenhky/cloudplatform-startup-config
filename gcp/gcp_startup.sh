@@ -12,6 +12,7 @@ sudo apt-get install libffi-dev -y
 sudo apt-get install python3-dev -y
 sudo apt-get install bzip2 -y
 sudo apt-get install git -y
+sudo apt-get install cmake -y
 
 # installing pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -33,6 +34,8 @@ sudo pip3 install -U sqlite3
 sudo pip3 install -U awscli
 sudo pip install -U crcmod
 sudo pip3 install -U crcmod
+sudo pip install -U dask
+sudo pip3 install -U dask
 
 # installing Anaconda
 mkdir install; cd install
