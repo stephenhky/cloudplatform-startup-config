@@ -36,6 +36,10 @@ sudo pip install -U crcmod
 sudo pip3 install -U crcmod
 sudo pip install -U dask
 sudo pip3 install -U dask
+sudo pip install -U dask-ml
+sudo pip3 install -U dask-ml
+sudo pip install -U umap
+sudo pip3 install -U umap
 
 # installing Anaconda
 mkdir install; cd install
