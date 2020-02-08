@@ -38,6 +38,8 @@ sudo pip install -U dask
 sudo pip3 install -U dask
 sudo pip install -U dask-ml
 sudo pip3 install -U dask-ml
+sudo pip install -U dask[dataframe]
+sudo pip3 install -U dask[dataframe]
 sudo pip install -U umap
 sudo pip3 install -U umap
 
