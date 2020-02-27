@@ -128,7 +128,7 @@ this newly created environment will be available for selection.
 To deactivate, type
 
 ```
-source deactivate
+conda deactivate
 ```
 
 # Additional Disk
