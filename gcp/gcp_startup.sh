@@ -33,16 +33,12 @@ sudo pip3 install -U graphflow
 sudo pip3 install -U nltk
 sudo pip3 install -U sqlite3
 sudo pip3 install -U awscli
-sudo pip install -U crcmod
 sudo pip3 install -U crcmod
-sudo pip install -U dask
 sudo pip3 install -U dask
-sudo pip install -U dask-ml
 sudo pip3 install -U dask-ml
-sudo pip install -U dask[dataframe]
 sudo pip3 install -U dask[dataframe]
-sudo pip install -U umap
 sudo pip3 install -U umap
+sudo pip3 install -U torch torchvision
 
 # installing Anaconda
 mkdir install; cd install
@@ -56,9 +52,7 @@ echo "export PATH=$HOME/miniconda2/bin:$PATH" >> $HOME/.bashrc
 cd $HOME
 
 # installing Jupyter
-sudo python2 -m pip install jupyter
 sudo python3 -m pip install jupyter
-sudo python2 -m ipykernel install --user
 sudo python3 -m ipykernel install --user
 jupyter notebook --generate-config -y
 sudo pip3 install jupyterlab
