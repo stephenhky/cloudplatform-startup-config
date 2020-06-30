@@ -40,6 +40,7 @@ sudo pip3 install -U dask[dataframe]
 sudo pip3 install -U umap
 sudo pip3 install -U torch torchvision
 sudo pip3 install -U transformers
+sudo pip3 install -U ml-experiment
 
 # installing Anaconda
 mkdir install; cd install
