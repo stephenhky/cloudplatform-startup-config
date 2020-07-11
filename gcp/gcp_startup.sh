@@ -24,20 +24,23 @@ rm get-pip.py
 sudo pip3 install -U numpy
 sudo pip3 install -U Cython
 sudo pip3 install -U shorttext
+sudo pip3 install -U spacy
 sudo python3 -m spacy download en
 sudo pip3 install -U matplotlib
+sudo pip3 install -U tensornetwork
 sudo pip3 install -U pyqentangle
 sudo pip3 install -U wget
-sudo pip3 install -U tfnumpy
 sudo pip3 install -U graphflow
 sudo pip3 install -U nltk
-sudo pip3 install -U sqlite3
+sudo pip3 install -U pysqlite3
 sudo pip3 install -U awscli
+sudo pip3 install -U gsutil
 sudo pip3 install -U crcmod
 sudo pip3 install -U dask
 sudo pip3 install -U dask-ml
 sudo pip3 install -U dask[dataframe]
 sudo pip3 install -U umap
+sudo pip3 install -U umap-learn
 sudo pip3 install -U torch torchvision
 sudo pip3 install -U transformers
 sudo pip3 install -U ml-experiment

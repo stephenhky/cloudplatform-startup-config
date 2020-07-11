@@ -1,44 +1,38 @@
 #!/usr/bin/env bash
 
 # system updates
-sudo apt-get update
-sudo apt install gcc -y
-sudo apt install gfortran -y
-sudo apt-get install libc6 -y
-sudo apt-get install python3 -y
-sudo apt-get install jq -y
-sudo apt-get install python-dev -y
-sudo apt-get install libffi-dev -y
-sudo apt-get install python3-dev -y
-sudo apt-get install bzip2 -y
-sudo apt-get install git -y
-sudo apt-get install cmake -y
-
-# installing pip
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-sudo python2 get-pip.py
-sudo python3 get-pip.py
-rm get-pip.py
+sudo yum update -y
+sudo yum install gcc -y
+sudo yum install gcc-gfortran -y
+sudo yum install python3 -y
+sudo yum install jq -y
+sudo yum install python-devel -y
+sudo yum install python3-devel -y
+sudo yum install git -y
+sudo yum install cmake -y
 
 # installing python packages
 sudo pip3 install -U numpy
 sudo pip3 install -U Cython
 sudo pip3 install -U shorttext
+sudo pip3 install -U spacy
 sudo python3 -m spacy download en
 sudo pip3 install -U matplotlib
+sudo pip3 install -U tensornetwork
 sudo pip3 install -U pyqentangle
 sudo pip3 install -U wget
-sudo pip3 install -U tfnumpy
 sudo pip3 install -U graphflow
 sudo pip3 install -U nltk
-sudo pip3 install -U sqlite3
+sudo pip3 install -U pysqlite3
 sudo pip3 install -U awscli
+sudo pip3 install -U gsutil
 sudo pip3 install -U crcmod
 sudo pip3 install -U dask
 sudo pip3 install -U dask-ml
 sudo pip3 install -U dask[dataframe]
 sudo pip3 install -U umap
-sudo pip3 install -U torch torchvision
+sudo pip3 install -U umap-learn
+sudo pip3 install -U torch torchvision    # need larger memory to install
 sudo pip3 install -U transformers
 sudo pip3 install -U ml-experiment
 sudo pip3 install -U flask
