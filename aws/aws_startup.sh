@@ -41,6 +41,7 @@ sudo pip3 install -U umap
 sudo pip3 install -U torch torchvision
 sudo pip3 install -U transformers
 sudo pip3 install -U ml-experiment
+sudo pip3 install -U flask
 
 # installing Anaconda
 mkdir install; cd install
