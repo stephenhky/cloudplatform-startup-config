@@ -24,8 +24,6 @@ rm get-pip.py
 sudo pip3 install -U numpy
 sudo pip3 install -U Cython
 sudo pip3 install -U shorttext
-sudo pip3 install -U spacy
-sudo python3 -m spacy download en
 sudo pip3 install -U matplotlib
 sudo pip3 install -U tensornetwork
 sudo pip3 install -U pyqentangle
